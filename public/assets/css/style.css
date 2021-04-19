@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.file-form{
+    padding: 5rem 0;
+    width: 60%;
+    margin: auto;
+}
+h1{
+    padding-top: 4rem;
+    text-align: center;
+}
+.border-top{
+    border-radius: 15px 15px 0 0;
+    border : 2px solid black;
+}
+.border-bottom{
+    border-radius: 0 0 15px 15px;
+    border : 2px solid black;
+}
+.card{
+    width: 70%;
+    margin:auto;
+}
+.text-top {
+    background : rgb(189, 68, 24);
+    padding: 2rem 1rem;
+}
+.text-top p{
+    font-size: 5em;
+    text-align: end;
+}
+.text-bottom{
+    background-color: palegreen;
+    padding: 2rem 1rem;
+}
+.text-bottom p{
+    font-size: 2rem;
+    text-align: end;
+}
+.card img{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+    top: 55%;
+    left: 20%;
+    z-index:1;
+    background-color: rgb(26, 73, 26) ;
+}
+.delete-btn{
+    padding-top: 2rem;
+    text-align: center;
+}
+.msg-errors{
+    padding: 1rem .5rem;
+    text-align: center;
+    background-color: rgb(184, 124, 124);
+    color: white;
+    width: max-content;
+    margin:auto;
+}
